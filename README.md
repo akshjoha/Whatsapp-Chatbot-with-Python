@@ -27,7 +27,7 @@ A WhatsApp bot built with **Flask** and **WhatsApp Cloud API** that allows users
 ## Install all required Python packages using pip:
 pip install Flask requests python-dotenv
 
-## 2️⃣ Setup Environment Variables
+## Setup Environment Variables
 
 Obtain WhatsApp Cloud API Credentials
 1. To interact with WhatsApp Cloud API, you need:
@@ -45,7 +45,7 @@ WHATSAPP_PHONE_NUMBER_ID=your_phone_number_id_here
 WHATSAPP_VERIFY_TOKEN=your_verify_token_here
 }
 
-3️⃣ Run the Bot Locally
+Run the Bot Locally
 
 Start the Flask server:
 python Python whatsapp bot.py
@@ -53,7 +53,7 @@ python Python whatsapp bot.py
 The bot will run on:
 http://localhost:5000
 
-4️⃣ Expose Local Server with ngrok (for WhatsApp webhook)
+Expose Local Server with ngrok (for WhatsApp webhook)
 
 # Register on ngrok
 
