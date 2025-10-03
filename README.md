@@ -22,9 +22,9 @@ A WhatsApp bot built with **Flask** and **WhatsApp Cloud API** that allows users
 - WhatsApp Cloud API credentials
 
 ---
-## Installation 
+# Installation 
 
-# Install all required Python packages using pip:
+## Install all required Python packages using pip:
 pip install Flask requests python-dotenv
 
 ## 2️⃣ Setup Environment Variables
