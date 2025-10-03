@@ -69,7 +69,7 @@ http://localhost:5000
 10. Set this static URL as your WhatsApp Cloud API webhook:
 11. https://mybot.ngrok-free.app/webhook
 12. Go to your ngrok dashboard → Connections to see live tunnels.
-13. Now open terminal or Cmd and type this ngrok http 5000 --domain your-domain.ngrok-free.app
+13. Now open terminal or Cmd and type this ngrok http 5000 --domain your-domain.ngrok-free.app while running Flask
 14. ✅ After this, your Flask bot is publicly accessible, and WhatsApp can send messages to your webhook.
 
 
