@@ -30,23 +30,14 @@ pip install Flask requests python-dotenv
 ## 2️⃣ Setup Environment Variables
 
 Obtain WhatsApp Cloud API Credentials
-
-To interact with WhatsApp Cloud API, you need:
-
-Access Token (Authorization Code)
-
-Phone Number ID (Developer Code)
-
-Webhook Verification Token (you can create any string)
-
+1. To interact with WhatsApp Cloud API, you need:
+2. Access Token (Authorization Code)
+3. Phone Number ID (Developer Code)
+4. Webhook Verification Token (you can create any string)
 Steps:
-
 Go to Meta for Developers
-
 Create an app and set up WhatsApp Cloud API.
-
 Copy the Access Token (Authorization Code) and Phone Number ID (Developer Code) from your WhatsApp app settings.
-
 Paste it in this part of the code: 
 {
 WHATSAPP_ACCESS_TOKEN= your_access_token_here
