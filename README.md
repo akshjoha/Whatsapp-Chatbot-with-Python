@@ -62,7 +62,23 @@ python Python whatsapp bot.py
 The bot will run on:
 http://localhost:5000
 
+4️⃣ Expose Local Server with ngrok (for WhatsApp webhook)
 
+# Register on ngrok
+
+1. Go to https://ngrok.com/
+2. Click Sign Up and create a free account.
+3. Verify your email and log in to your ngrok dashboard.
+4. Download and install ngrok: https://ngrok.com/download
+5. Unzip the file and place the ngrok executable in a folder accessible via your system PATH.
+6.In your ngrok dashboard, go to Auth section to get your Authtoken.
+7.Run the following command in your terminal: ngrok config add-authtoken YOUR_AUTHTOKEN_HERE -This links ngrok to your account so you can use advanced features like static domains.
+8. Go to your ngrok dashboard → Domain / Static Domains.
+9. Copy the static domain URL provided by ngrok (e.g., https://mybot.ngrok-free.app)- This URL will remain the same even after restarting ngrok, unlike the temporary URL.
+10. Set this static URL as your WhatsApp Cloud API webhook:
+11. https://mybot.ngrok-free.app/webhook
+12. Go to your ngrok dashboard → Connections to see live tunnels.
+13. Send a test message to your WhatsApp bot to confirm the webhook is receiving messages.
 
 
 
