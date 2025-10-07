@@ -8,7 +8,7 @@ A WhatsApp bot built with **Flask** and **WhatsApp Cloud API** that allows users
 ## Features
 
 - Automatic replies to greetings and common queries (phone, email, address, working hours, etc.)
-- Interactive **services menu** with 7 generic services.
+- Interactive **services menu** with generic services.
 - Sends PDF brochures for each service individually.
 - Converts Google Drive share links into direct download links for PDF delivery.
 - Ready to deploy on any server running Python 3.8+ with ngrok.
